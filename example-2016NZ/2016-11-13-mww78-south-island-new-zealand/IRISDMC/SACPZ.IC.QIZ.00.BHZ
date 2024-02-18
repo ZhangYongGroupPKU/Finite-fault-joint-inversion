@@ -1,0 +1,41 @@
+* **********************************
+* NETWORK   (KNETWK): IC
+* STATION    (KSTNM): QIZ
+* LOCATION   (KHOLE): 00
+* CHANNEL   (KCMPNM): BHZ
+* CREATED           : 2018-10-10T07:07:55
+* START             : 2013-01-10T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Qiongzhong, Hainan Province, China
+
+* LATITUDE          : 19.029100
+* LONGITUDE         : 109.844500
+* ELEVATION         : 240.0
+* DEPTH             : 0.0
+* DIP               : 0.0
+* AZIMUTH           : 0.0
+* SAMPLE RATE       : 20.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Streckeisen STS-1VBB w/E300
+* INSTGAIN          : 2.530000e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 4.244630e+09 (M/S)
+* A0                : 3.949590e+03
+* **********************************
+ZEROS	5
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	-1.346410e-02	+0.000000e+00	
+	-1.346410e-02	+0.000000e+00	
+POLES	6
+	-1.215580e-02	+1.234000e-02	
+	-1.215580e-02	-1.234000e-02	
+	-7.564200e-03	+0.000000e+00	
+	-2.005630e-02	+0.000000e+00	
+	-3.918000e+01	+4.912000e+01	
+	-3.918000e+01	-4.912000e+01	
+CONSTANT	1.676455e+13
+
+

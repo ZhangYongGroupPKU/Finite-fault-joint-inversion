@@ -1,0 +1,36 @@
+* **********************************
+* NETWORK   (KNETWK): MS
+* STATION    (KSTNM): BTDF
+* LOCATION   (KHOLE): 01
+* CHANNEL   (KCMPNM): BHZ
+* CREATED           : 2018-10-10T07:08:11
+* START             : 2006-02-02T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Bukit Timah Dairy Farm, Singapore
+* LATITUDE          : 1.361700
+* LONGITUDE         : 103.775000
+* ELEVATION         : 57.0
+* DEPTH             : 0.0
+* DIP               : 0.0
+* AZIMUTH           : 0.0
+* SAMPLE RATE       : 20.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Streckeisen STS-1/Qx80 new (19920812) Firmware
+* INSTGAIN          : 2.406630e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 1.009410e+09 (M/S)
+* A0                : 9.717420e+02
+* **********************************
+ZEROS	3
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+POLES	4
+	-1.234120e-02	+1.234150e-02	
+	-1.234120e-02	-1.234150e-02	
+	-1.958780e+01	+2.456170e+01	
+	-1.958780e+01	-2.456170e+01	
+CONSTANT	9.808861e+11
+
+

@@ -1,0 +1,37 @@
+* **********************************
+* NETWORK   (KNETWK): IU
+* STATION    (KSTNM): POHA
+* LOCATION   (KHOLE): 00
+* CHANNEL   (KCMPNM): BH2
+* CREATED           : 2018-10-10T07:08:06
+* START             : 2011-08-05T18:10:59
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Pohakuloa, Hawaii, USA
+* LATITUDE          : 19.757300
+* LONGITUDE         : -155.532600
+* ELEVATION         : 1910.0
+* DEPTH             : 80.0
+* DIP               : 90.0
+* AZIMUTH           : 228.0
+* SAMPLE RATE       : 20.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Geotech KS-54000 Borehole Seismometer
+* INSTGAIN          : 2.028000e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 3.402420e+09 (M/S)
+* A0                : 8.625340e+04
+* **********************************
+ZEROS	3
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+POLES	5
+	-5.943130e+01	+0.000000e+00	
+	-2.271210e+01	+2.710650e+01	
+	-2.271210e+01	-2.710650e+01	
+	-4.800400e-03	+0.000000e+00	
+	-7.378710e-02	+0.000000e+00	
+CONSTANT	2.934703e+14
+
+

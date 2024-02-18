@@ -1,0 +1,41 @@
+* **********************************
+* NETWORK   (KNETWK): IU
+* STATION    (KSTNM): DAV
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): BHZ
+* CREATED           : 2018-10-10T07:08:00
+* START             : 2011-07-27T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Davao, Philippines
+* LATITUDE          : 7.069700
+* LONGITUDE         : 125.579100
+* ELEVATION         : 150.0
+* DEPTH             : 1.0
+* DIP               : 0.0
+* AZIMUTH           : 0.0
+* SAMPLE RATE       : 40.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Trillium 240 broad band
+* INSTGAIN          : 1.182000e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 1.983070e+09 (M/S)
+* A0                : 2.320250e+09
+* **********************************
+ZEROS	5
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	-1.080000e+02	+0.000000e+00	
+	-1.610000e+02	+0.000000e+00	
+POLES	7
+	-1.794150e-02	+1.778900e-02	
+	-1.794150e-02	-1.778900e-02	
+	-1.730000e+02	+0.000000e+00	
+	-1.960000e+02	+2.310000e+02	
+	-1.960000e+02	-2.310000e+02	
+	-7.320000e+02	+1.415000e+03	
+	-7.320000e+02	-1.415000e+03	
+CONSTANT	4.601218e+18
+
+

@@ -1,0 +1,40 @@
+* **********************************
+* NETWORK   (KNETWK): IU
+* STATION    (KSTNM): CASY
+* LOCATION   (KHOLE): 00
+* CHANNEL   (KCMPNM): BH1
+* CREATED           : 2018-10-10T07:07:59
+* START             : 2012-01-20T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Casey, Antarctica
+* LATITUDE          : -66.279200
+* LONGITUDE         : 110.535400
+* ELEVATION         : 5.0
+* DEPTH             : 5.0
+* DIP               : 90.0
+* AZIMUTH           : 0.0
+* SAMPLE RATE       : 20.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Streckeisen STS-1VBB w/E300
+* INSTGAIN          : 2.002000e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 3.358800e+09 (M/S)
+* A0                : 3.949180e+03
+* **********************************
+ZEROS	5
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	-1.343680e-02	+0.000000e+00	
+	-1.343680e-02	+0.000000e+00	
+POLES	6
+	-1.234790e-02	+1.234000e-02	
+	-1.234790e-02	-1.234000e-02	
+	-8.045030e-03	+0.000000e+00	
+	-1.905630e-02	+0.000000e+00	
+	-3.918000e+01	+4.912000e+01	
+	-3.918000e+01	-4.912000e+01	
+CONSTANT	1.326451e+13
+
+

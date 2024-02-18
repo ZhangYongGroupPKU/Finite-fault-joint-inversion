@@ -1,0 +1,40 @@
+* **********************************
+* NETWORK   (KNETWK): IU
+* STATION    (KSTNM): MAJO
+* LOCATION   (KHOLE): 00
+* CHANNEL   (KCMPNM): BHZ
+* CREATED           : 2018-10-10T07:08:03
+* START             : 2014-06-16T17:17:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Matsushiro, Japan
+* LATITUDE          : 36.545670
+* LONGITUDE         : 138.204060
+* ELEVATION         : 405.0
+* DEPTH             : 0.0
+* DIP               : 0.0
+* AZIMUTH           : 0.0
+* SAMPLE RATE       : 20.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Streckeisen STS-1VBB w/E300
+* INSTGAIN          : 3.580540e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 6.007140e+09 (M/S)
+* A0                : 3.949210e+03
+* **********************************
+ZEROS	5
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	-1.357090e-02	+0.000000e+00	
+	-1.357090e-02	+0.000000e+00	
+POLES	6
+	-1.264640e-02	+1.234000e-02	
+	-1.264640e-02	-1.234000e-02	
+	-7.732870e-03	+0.000000e+00	
+	-1.901960e-02	+0.000000e+00	
+	-3.918000e+01	+4.912000e+01	
+	-3.918000e+01	-4.912000e+01	
+CONSTANT	2.372346e+13
+
+

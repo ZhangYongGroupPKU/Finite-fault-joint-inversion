@@ -1,0 +1,37 @@
+* **********************************
+* NETWORK   (KNETWK): IU
+* STATION    (KSTNM): NWAO
+* LOCATION   (KHOLE): 00
+* CHANNEL   (KCMPNM): BH2
+* CREATED           : 2018-10-10T07:08:05
+* START             : 2011-04-30T02:00:00
+* END               : 2018-09-15T00:00:00
+* DESCRIPTION       : Narrogin, Australia
+* LATITUDE          : -32.927700
+* LONGITUDE         : 117.239000
+* ELEVATION         : 275.1
+* DEPTH             : 105.0
+* DIP               : 90.0
+* AZIMUTH           : 170.0
+* SAMPLE RATE       : 20.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Geotech KS-54000 Borehole Seismometer
+* INSTGAIN          : 2.000000e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 3.355440e+09 (M/S)
+* A0                : 8.585780e+04
+* **********************************
+ZEROS	3
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+POLES	5
+	-5.943130e+01	+0.000000e+00	
+	-2.271210e+01	+2.710650e+01	
+	-2.271210e+01	-2.710650e+01	
+	-4.800400e-03	+0.000000e+00	
+	-7.245790e-02	+0.000000e+00	
+CONSTANT	2.880907e+14
+
+

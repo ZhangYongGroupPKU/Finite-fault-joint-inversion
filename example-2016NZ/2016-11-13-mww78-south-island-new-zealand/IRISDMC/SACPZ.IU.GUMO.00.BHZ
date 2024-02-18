@@ -1,0 +1,37 @@
+* **********************************
+* NETWORK   (KNETWK): IU
+* STATION    (KSTNM): GUMO
+* LOCATION   (KHOLE): 00
+* CHANNEL   (KCMPNM): BHZ
+* CREATED           : 2018-10-10T07:08:01
+* START             : 2011-08-15T18:08:00
+* END               : 2017-08-30T00:00:00
+* DESCRIPTION       : Guam, Mariana Islands
+* LATITUDE          : 13.589300
+* LONGITUDE         : 144.868400
+* ELEVATION         : 61.0
+* DEPTH             : 109.0
+* DIP               : 0.0
+* AZIMUTH           : 0.0
+* SAMPLE RATE       : 20.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Geotech KS-54000 Borehole Seismometer
+* INSTGAIN          : 1.977880e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 3.318330e+09 (M/S)
+* A0                : 8.615350e+04
+* **********************************
+ZEROS	3
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+POLES	5
+	-5.943130e+01	+0.000000e+00	
+	-2.271210e+01	+2.710650e+01	
+	-2.271210e+01	-2.710650e+01	
+	-4.800400e-03	+0.000000e+00	
+	-7.345310e-02	+0.000000e+00	
+CONSTANT	2.858857e+14
+
+

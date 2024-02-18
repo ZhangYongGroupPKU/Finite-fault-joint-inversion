@@ -1,0 +1,43 @@
+* **********************************
+* NETWORK   (KNETWK): IU
+* STATION    (KSTNM): PTCN
+* LOCATION   (KHOLE): 00
+* CHANNEL   (KCMPNM): BH1
+* CREATED           : 2018-10-10T07:08:06
+* START             : 2014-11-30T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Pitcairn Island, South Pacific
+* LATITUDE          : -25.071300
+* LONGITUDE         : -130.095300
+* ELEVATION         : 218.0
+* DEPTH             : 2.0
+* DIP               : 90.0
+* AZIMUTH           : 0.0
+* SAMPLE RATE       : 40.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Streckeisen STS-2.5
+* INSTGAIN          : 1.459000e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 2.447790e+09 (M/S)
+* A0                : 4.568010e+01
+* **********************************
+ZEROS	7
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	-9.424780e+00	+0.000000e+00	
+	-6.283190e+02	+0.000000e+00	
+	-5.654870e+02	+9.794520e+02	
+	-5.654870e+02	-9.794520e+02	
+POLES	7
+	-3.731280e-02	-3.670000e-02	
+	-3.731280e-02	+3.670000e-02	
+	-9.738940e+00	+0.000000e+00	
+	-2.199110e+02	+1.382300e+02	
+	-2.199110e+02	-1.382300e+02	
+	-2.199110e+02	+6.848670e+02	
+	-2.199110e+02	-6.848670e+02	
+CONSTANT	1.118153e+11
+
+

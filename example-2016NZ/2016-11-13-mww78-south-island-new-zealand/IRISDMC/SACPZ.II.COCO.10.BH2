@@ -1,0 +1,42 @@
+* **********************************
+* NETWORK   (KNETWK): II
+* STATION    (KSTNM): COCO
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): BH2
+* CREATED           : 2018-10-10T07:07:56
+* START             : 2014-01-12T00:00:00
+* END               : 2017-02-10T23:59:59
+* DESCRIPTION       : West Island, Cocos (Keeling) Islands
+* LATITUDE          : -12.190100
+* LONGITUDE         : 96.834900
+* ELEVATION         : 1.0
+* DEPTH             : 4.8
+* DIP               : 90.0
+* AZIMUTH           : 196.5
+* SAMPLE RATE       : 40.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Nanometrics Trillium 120 (Type A) Posthole BB Seis
+* INSTGAIN          : 1.194400e+03 (M/S)
+* COMMENT           : S/N 17
+* SENSITIVITY       : 1.996880e+09 (M/S)
+* A0                : 2.249508e+05
+* **********************************
+ZEROS	6
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	-8.999092e+01	+0.000000e+00	
+	-1.606843e+02	+0.000000e+00	
+	-3.107695e+03	+0.000000e+00	
+POLES	7
+	-3.838385e-02	+3.657071e-02	
+	-3.838385e-02	-3.657071e-02	
+	-1.292640e+02	+0.000000e+00	
+	-1.349867e+02	+1.599843e+02	
+	-1.349867e+02	-1.599843e+02	
+	-6.709374e+02	+1.153888e+03	
+	-6.709374e+02	-1.153888e+03	
+CONSTANT	4.491997e+14
+
+

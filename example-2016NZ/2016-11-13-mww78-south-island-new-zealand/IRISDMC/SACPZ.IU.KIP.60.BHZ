@@ -1,0 +1,40 @@
+* **********************************
+* NETWORK   (KNETWK): IU
+* STATION    (KSTNM): KIP
+* LOCATION   (KHOLE): 60
+* CHANNEL   (KCMPNM): BHZ
+* CREATED           : 2018-10-10T07:08:02
+* START             : 2012-11-28T00:00:00
+* END               : 2018-06-29T02:00:00
+* DESCRIPTION       : Kipapa, Hawaii, USA
+* LATITUDE          : 21.420000
+* LONGITUDE         : -158.011200
+* ELEVATION         : 109.0
+* DEPTH             : 1.0
+* DIP               : 0.0
+* AZIMUTH           : 0.0
+* SAMPLE RATE       : 40.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Metrozet M2166 VBB seismometer
+* INSTGAIN          : 2.437000e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 1.022150e+09 (M/S)
+* A0                : 3.951320e+03
+* **********************************
+ZEROS	5
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	-4.212640e-02	+0.000000e+00	
+	-4.212640e-02	+0.000000e+00	
+POLES	6
+	-1.870060e-02	+1.234000e-02	
+	-1.870060e-02	-1.234000e-02	
+	-1.559280e-02	+0.000000e+00	
+	-5.568140e-02	+0.000000e+00	
+	-3.918000e+01	+4.912000e+01	
+	-3.918000e+01	-4.912000e+01	
+CONSTANT	4.038842e+12
+
+

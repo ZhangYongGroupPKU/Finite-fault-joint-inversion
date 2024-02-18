@@ -1,0 +1,40 @@
+* **********************************
+* NETWORK   (KNETWK): IU
+* STATION    (KSTNM): LCO
+* LOCATION   (KHOLE): 60
+* CHANNEL   (KCMPNM): BH1
+* CREATED           : 2018-10-10T07:08:03
+* START             : 2014-08-04T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Las Campanas Astronomical Observatory, Chile
+* LATITUDE          : -29.011000
+* LONGITUDE         : -70.700500
+* ELEVATION         : 2274.0
+* DEPTH             : 0.0
+* DIP               : 90.0
+* AZIMUTH           : 0.0
+* SAMPLE RATE       : 40.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Metrozet M2166 VBB seismometer
+* INSTGAIN          : 2.394000e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 1.004120e+09 (M/S)
+* A0                : 3.949330e+03
+* **********************************
+ZEROS	5
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	-1.331870e-02	+0.000000e+00	
+	-1.331870e-02	+0.000000e+00	
+POLES	6
+	-1.238620e-02	+1.234000e-02	
+	-1.238620e-02	-1.234000e-02	
+	-7.996690e-03	+0.000000e+00	
+	-1.906270e-02	+0.000000e+00	
+	-3.918000e+01	+4.912000e+01	
+	-3.918000e+01	-4.912000e+01	
+CONSTANT	3.965601e+12
+
+

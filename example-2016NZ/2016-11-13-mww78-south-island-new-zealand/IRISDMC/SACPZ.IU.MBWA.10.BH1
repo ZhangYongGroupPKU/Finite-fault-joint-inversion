@@ -1,0 +1,43 @@
+* **********************************
+* NETWORK   (KNETWK): IU
+* STATION    (KSTNM): MBWA
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): BH1
+* CREATED           : 2018-10-10T07:08:04
+* START             : 2016-01-25T08:00:00
+* END               : 2018-09-23T00:00:00
+* DESCRIPTION       : Marble Bar, Western Australia
+* LATITUDE          : -21.159000
+* LONGITUDE         : 119.731300
+* ELEVATION         : 190.0
+* DEPTH             : 0.0
+* DIP               : 90.0
+* AZIMUTH           : 1.0
+* SAMPLE RATE       : 40.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Streckeisen STS-2.5
+* INSTGAIN          : 1.459000e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 2.447790e+09 (M/S)
+* A0                : 4.570200e+01
+* **********************************
+ZEROS	7
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	-9.424780e+00	+0.000000e+00	
+	-6.283190e+02	+0.000000e+00	
+	-5.654870e+02	+9.794520e+02	
+	-5.654870e+02	-9.794520e+02	
+POLES	7
+	-3.740210e-02	-3.670000e-02	
+	-3.740210e-02	+3.670000e-02	
+	-9.738940e+00	+0.000000e+00	
+	-2.199110e+02	+1.382300e+02	
+	-2.199110e+02	-1.382300e+02	
+	-2.199110e+02	+6.848670e+02	
+	-2.199110e+02	-6.848670e+02	
+CONSTANT	1.118689e+11
+
+

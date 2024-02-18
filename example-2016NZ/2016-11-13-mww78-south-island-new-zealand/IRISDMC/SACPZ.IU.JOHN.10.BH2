@@ -1,0 +1,41 @@
+* **********************************
+* NETWORK   (KNETWK): IU
+* STATION    (KSTNM): JOHN
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): BH2
+* CREATED           : 2018-10-10T07:08:02
+* START             : 2010-11-06T06:10:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Johnston Island, USA
+* LATITUDE          : 16.732900
+* LONGITUDE         : -169.529200
+* ELEVATION         : 2.5
+* DEPTH             : 0.0
+* DIP               : 90.0
+* AZIMUTH           : 86.0
+* SAMPLE RATE       : 40.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Trillium 240 broad band
+* INSTGAIN          : 1.192130e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 2.000060e+09 (M/S)
+* A0                : 2.319600e+09
+* **********************************
+ZEROS	5
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	-1.080000e+02	+0.000000e+00	
+	-1.610000e+02	+0.000000e+00	
+POLES	7
+	-1.782370e-02	+1.778900e-02	
+	-1.782370e-02	-1.778900e-02	
+	-1.730000e+02	+0.000000e+00	
+	-1.960000e+02	+2.310000e+02	
+	-1.960000e+02	-2.310000e+02	
+	-7.320000e+02	+1.415000e+03	
+	-7.320000e+02	-1.415000e+03	
+CONSTANT	4.639339e+18
+
+

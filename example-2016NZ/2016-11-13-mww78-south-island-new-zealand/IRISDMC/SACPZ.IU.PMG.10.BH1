@@ -1,0 +1,37 @@
+* **********************************
+* NETWORK   (KNETWK): IU
+* STATION    (KSTNM): PMG
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): BH1
+* CREATED           : 2018-10-10T07:08:05
+* START             : 2011-07-30T06:11:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Port Moresby, New Guinea
+* LATITUDE          : -9.404700
+* LONGITUDE         : 147.159700
+* ELEVATION         : 90.0
+* DEPTH             : 0.0
+* DIP               : 90.0
+* AZIMUTH           : 0.0
+* SAMPLE RATE       : 40.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Guralp CMG3-T Seismometer
+* INSTGAIN          : 1.953530e+04 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 3.277480e+10 (M/S)
+* A0                : 7.248340e+07
+* **********************************
+ZEROS	3
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+POLES	5
+	-3.693470e-02	+3.671100e-02	
+	-3.693470e-02	-3.671100e-02	
+	-1.979000e+02	+1.979000e+02	
+	-1.979000e+02	-1.979000e+02	
+	-9.111000e+02	+0.000000e+00	
+CONSTANT	2.375629e+18
+
+

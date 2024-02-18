@@ -1,0 +1,36 @@
+* **********************************
+* NETWORK   (KNETWK): II
+* STATION    (KSTNM): EFI
+* LOCATION   (KHOLE): 00
+* CHANNEL   (KCMPNM): BHZ
+* CREATED           : 2018-10-10T07:07:56
+* START             : 2013-10-21T17:32:00
+* END               : 2017-01-21T23:59:59
+* DESCRIPTION       : Mount Kent, East Falkland Island
+* LATITUDE          : -51.675300
+* LONGITUDE         : -58.063700
+* ELEVATION         : 110.0
+* DEPTH             : 80.0
+* DIP               : 0.0
+* AZIMUTH           : 0.0
+* SAMPLE RATE       : 20.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Geotech KS-54000 Borehole Seismometer
+* INSTGAIN          : 2.242560e+03 (M/S)
+* COMMENT           : S/N 24
+* SENSITIVITY       : 3.727730e+09 (M/S)
+* A0                : 1.069514e+03
+* **********************************
+ZEROS	3
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+POLES	4
+	-4.799989e-03	+0.000000e+00	
+	-7.660460e-02	+0.000000e+00	
+	-2.259515e+01	+2.298716e+01	
+	-2.259515e+01	-2.298716e+01	
+CONSTANT	3.986858e+12
+
+

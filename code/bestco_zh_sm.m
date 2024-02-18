@@ -1,0 +1,20 @@
+function [dt,m,rm]=bestco_zh_sm(x,y)
+% size(x) = [length,1,3]
+k=max(length(x),length(y));
+rm0 = zeros(2*k-1,3);
+x = reshape(x,length(x),3);
+y = reshape(y,length(y),3);
+for i = 1:3
+    xi = x(:,i);
+    yi = y(:,i);
+    Rxy=xcorr(xi,yi);
+    Rxx0=xi'*xi;
+    Ryy0=yi'*yi;
+    rm0(:,i)=Rxy/sqrt(Rxx0*Ryy0);
+end
+rm = mean(rm0,2);
+%m=(-k+1):(k-1);
+[mx,nx]=max((rm));
+%dt=m(nx);
+dt=nx-k;
+m=mx;

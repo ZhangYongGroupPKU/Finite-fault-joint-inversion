@@ -1,0 +1,42 @@
+* **********************************
+* NETWORK   (KNETWK): II
+* STATION    (KSTNM): KWAJ
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): BH1
+* CREATED           : 2018-10-10T07:07:58
+* START             : 2014-06-07T05:14:00
+* END               : 2017-08-08T21:08:59
+* DESCRIPTION       : Kwajalein Atoll, Pacific Ocean
+* LATITUDE          : 8.801900
+* LONGITUDE         : 167.613000
+* ELEVATION         : 0.0
+* DEPTH             : 0.0
+* DIP               : 90.0
+* AZIMUTH           : 359.5
+* SAMPLE RATE       : 40.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Nanometrics Trillium 240 Seismometer
+* INSTGAIN          : 1.180170e+03 (M/S)
+* COMMENT           : S/N 691
+* SENSITIVITY       : 1.973090e+09 (M/S)
+* A0                : 3.405835e+05
+* **********************************
+ZEROS	6
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	-9.165911e+01	+0.000000e+00	
+	-1.601000e+02	+0.000000e+00	
+	-3.206988e+03	+0.000000e+00	
+POLES	7
+	-1.769678e-02	+1.760216e-02	
+	-1.769678e-02	-1.760216e-02	
+	-9.528451e+01	+0.000000e+00	
+	-1.920016e+02	+2.590997e+02	
+	-1.920016e+02	-2.590997e+02	
+	-5.576955e+02	+1.142974e+03	
+	-5.576955e+02	-1.142974e+03	
+CONSTANT	6.720018e+14
+
+

@@ -1,0 +1,40 @@
+* **********************************
+* NETWORK   (KNETWK): IU
+* STATION    (KSTNM): PMG
+* LOCATION   (KHOLE): 00
+* CHANNEL   (KCMPNM): BH2
+* CREATED           : 2018-10-10T07:08:05
+* START             : 2011-07-29T18:28:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Port Moresby, New Guinea
+* LATITUDE          : -9.404700
+* LONGITUDE         : 147.159700
+* ELEVATION         : 90.0
+* DEPTH             : 0.0
+* DIP               : 90.0
+* AZIMUTH           : 88.0
+* SAMPLE RATE       : 20.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Streckeisen STS-1VBB w/E300
+* INSTGAIN          : 1.947110e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 3.266710e+09 (M/S)
+* A0                : 3.949750e+03
+* **********************************
+ZEROS	5
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	-2.376100e-02	+0.000000e+00	
+	-2.376100e-02	+0.000000e+00	
+POLES	6
+	-1.312520e-02	+1.234000e-02	
+	-1.312520e-02	-1.234000e-02	
+	-1.524430e-02	+0.000000e+00	
+	-3.087720e-02	+0.000000e+00	
+	-3.918000e+01	+4.912000e+01	
+	-3.918000e+01	-4.912000e+01	
+CONSTANT	1.290269e+13
+
+

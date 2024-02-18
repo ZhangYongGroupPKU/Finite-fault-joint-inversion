@@ -1,0 +1,43 @@
+* **********************************
+* NETWORK   (KNETWK): II
+* STATION    (KSTNM): ERM
+* LOCATION   (KHOLE): 00
+* CHANNEL   (KCMPNM): BH1
+* CREATED           : 2018-10-10T07:07:56
+* START             : 2016-08-24T00:00:00
+* END               : 2017-09-01T23:59:59
+* DESCRIPTION       : Erimo, Hokkaido Island, Japan
+* LATITUDE          : 42.015000
+* LONGITUDE         : 143.157200
+* ELEVATION         : 40.0
+* DEPTH             : 0.0
+* DIP               : 90.0
+* AZIMUTH           : 359.9
+* SAMPLE RATE       : 20.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Metrozet M2166-VBH Seismometer
+* INSTGAIN          : 2.460660e+03 (M/S)
+* COMMENT           : S/N 400-1625
+* SENSITIVITY       : 3.896300e+09 (M/S)
+* A0                : 6.612236e+01
+* **********************************
+ZEROS	7
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	-7.853982e+01	+0.000000e+00	
+	-1.525042e-01	+0.000000e+00	
+	-1.525042e-01	+0.000000e+00	
+	-3.141593e+01	+0.000000e+00	
+POLES	7
+	-1.212202e-02	+1.215997e-02	
+	-1.212202e-02	-1.215997e-02	
+	-1.525413e-01	+0.000000e+00	
+	-1.525413e-01	+0.000000e+00	
+	-3.320337e+01	+2.507047e+01	
+	-3.320337e+01	-2.507047e+01	
+	-9.424778e+01	+0.000000e+00	
+CONSTANT	2.576325e+11
+
+

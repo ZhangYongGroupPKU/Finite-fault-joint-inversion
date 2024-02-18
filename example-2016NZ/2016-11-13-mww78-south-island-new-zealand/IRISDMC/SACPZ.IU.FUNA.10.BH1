@@ -1,0 +1,41 @@
+* **********************************
+* NETWORK   (KNETWK): IU
+* STATION    (KSTNM): FUNA
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): BH1
+* CREATED           : 2018-10-10T07:08:00
+* START             : 2011-01-12T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Funafuti, Tuvalu
+* LATITUDE          : -8.525900
+* LONGITUDE         : 179.196600
+* ELEVATION         : 20.0
+* DEPTH             : 0.0
+* DIP               : 90.0
+* AZIMUTH           : 0.0
+* SAMPLE RATE       : 40.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Trillium 240 broad band
+* INSTGAIN          : 1.182000e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 1.983070e+09 (M/S)
+* A0                : 2.319640e+09
+* **********************************
+ZEROS	5
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	-1.080000e+02	+0.000000e+00	
+	-1.610000e+02	+0.000000e+00	
+POLES	7
+	-1.783130e-02	+1.778900e-02	
+	-1.783130e-02	-1.778900e-02	
+	-1.730000e+02	+0.000000e+00	
+	-1.960000e+02	+2.310000e+02	
+	-1.960000e+02	-2.310000e+02	
+	-7.320000e+02	+1.415000e+03	
+	-7.320000e+02	-1.415000e+03	
+CONSTANT	4.600008e+18
+
+

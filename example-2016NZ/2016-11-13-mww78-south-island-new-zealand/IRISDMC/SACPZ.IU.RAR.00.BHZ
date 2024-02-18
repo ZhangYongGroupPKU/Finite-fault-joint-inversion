@@ -1,0 +1,37 @@
+* **********************************
+* NETWORK   (KNETWK): IU
+* STATION    (KSTNM): RAR
+* LOCATION   (KHOLE): 00
+* CHANNEL   (KCMPNM): BHZ
+* CREATED           : 2018-10-10T07:08:08
+* START             : 2010-12-18T00:00:00
+* END               : 2018-03-28T00:00:00
+* DESCRIPTION       : Rarotonga, Cook Islands
+* LATITUDE          : -21.212500
+* LONGITUDE         : -159.773300
+* ELEVATION         : -73.0
+* DEPTH             : 101.0
+* DIP               : 0.0
+* AZIMUTH           : 0.0
+* SAMPLE RATE       : 20.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Geotech KS-54000 Borehole Seismometer
+* INSTGAIN          : 2.051400e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 3.441670e+09 (M/S)
+* A0                : 8.577680e+04
+* **********************************
+ZEROS	3
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+POLES	5
+	-5.943130e+01	+0.000000e+00	
+	-2.271210e+01	+2.710650e+01	
+	-2.271210e+01	-2.710650e+01	
+	-4.800400e-03	+0.000000e+00	
+	-7.218350e-02	+0.000000e+00	
+CONSTANT	2.952154e+14
+
+

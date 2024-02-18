@@ -1,0 +1,36 @@
+* **********************************
+* NETWORK   (KNETWK): II
+* STATION    (KSTNM): COCO
+* LOCATION   (KHOLE): 00
+* CHANNEL   (KCMPNM): BHZ
+* CREATED           : 2018-10-10T07:07:55
+* START             : 2014-01-12T00:00:00
+* END               : 2018-03-19T11:59:59
+* DESCRIPTION       : West Island, Cocos (Keeling) Islands
+* LATITUDE          : -12.190100
+* LONGITUDE         : 96.834900
+* ELEVATION         : 1.0
+* DEPTH             : 70.0
+* DIP               : 0.0
+* AZIMUTH           : 0.0
+* SAMPLE RATE       : 20.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Geotech KS-54000 Borehole Seismometer
+* INSTGAIN          : 2.164800e+03 (M/S)
+* COMMENT           : S/N 167
+* SENSITIVITY       : 3.598470e+09 (M/S)
+* A0                : 1.057508e+03
+* **********************************
+ZEROS	3
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+POLES	4
+	-4.799989e-03	+0.000000e+00	
+	-7.341022e-02	+0.000000e+00	
+	-2.185210e+01	+2.349767e+01	
+	-2.185210e+01	-2.349767e+01	
+CONSTANT	3.805412e+12
+
+

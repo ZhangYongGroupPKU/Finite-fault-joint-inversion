@@ -1,0 +1,42 @@
+* **********************************
+* NETWORK   (KNETWK): II
+* STATION    (KSTNM): HOPE
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): BH2
+* CREATED           : 2018-10-10T07:07:57
+* START             : 2015-01-08T17:00:00
+* END               : 2017-03-09T23:59:59
+* DESCRIPTION       : Hope Point, South Georgia Island
+* LATITUDE          : -54.283600
+* LONGITUDE         : -36.487900
+* ELEVATION         : 20.0
+* DEPTH             : 0.0
+* DIP               : 90.0
+* AZIMUTH           : 90.9
+* SAMPLE RATE       : 40.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Nanometrics Trillium 240 Seismometer
+* INSTGAIN          : 1.159470e+03 (M/S)
+* COMMENT           : S/N 557
+* SENSITIVITY       : 1.938500e+09 (M/S)
+* A0                : 3.899623e+05
+* **********************************
+ZEROS	6
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	-9.165911e+01	+0.000000e+00	
+	-1.601000e+02	+0.000000e+00	
+	-3.206988e+03	+0.000000e+00	
+POLES	7
+	-1.763370e-02	+1.758921e-02	
+	-1.763370e-02	-1.758921e-02	
+	-1.091012e+02	+0.000000e+00	
+	-1.920016e+02	+2.590997e+02	
+	-1.920016e+02	-2.590997e+02	
+	-5.576955e+02	+1.142974e+03	
+	-5.576955e+02	-1.142974e+03	
+CONSTANT	7.559419e+14
+
+

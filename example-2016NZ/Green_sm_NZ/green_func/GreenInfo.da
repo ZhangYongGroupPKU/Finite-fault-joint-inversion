@@ -1,0 +1,131 @@
+#   Space-time domain Green function database
+#   calculated on Thu Nov 22 13:53:57 2018
+#================================================
+#   data_type size: REAL*4
+#================================================
+#   time_window[s] sampling[s] number_of_samples
+    511.00      1.00   512
+#================================================
+#   number of distances, list of distances
+     401
+     0.000     1.000     2.003     3.008     4.015
+     5.025     6.038     7.053     8.070     9.090
+    10.113    11.138    12.165    13.195    14.228
+    15.263    16.301    17.341    18.383    19.429
+    20.476    21.526    22.579    23.634    24.692
+    25.752    26.815    27.880    28.947    30.018
+    31.090    32.165    33.243    34.323    35.406
+    36.491    37.579    38.669    39.762    40.857
+    41.955    43.055    44.158    45.263    46.371
+    47.481    48.594    49.709    50.827    51.947
+    53.070    54.195    55.323    56.454    57.586
+    58.722    59.860    61.000    62.143    63.288
+    64.436    65.586    66.739    67.895    69.053
+    70.213    71.376    72.541    73.709    74.880
+    76.053    77.228    78.406    79.586    80.769
+    81.955    83.143    84.333    85.526    86.722
+    87.920    89.120    90.323    91.529    92.737
+    93.947    95.160    96.376    97.594    98.815
+   100.038   101.263   102.491   103.722   104.955
+   106.190   107.429   108.669   109.912   111.158
+   112.406   113.657   114.910   116.165   117.424
+   118.684   119.947   121.213   122.481   123.752
+   125.025   126.301   127.579   128.860   130.143
+   131.429   132.717   134.008   135.301   136.596
+   137.895   139.195   140.499   141.805   143.113
+   144.424   145.737   147.053   148.371   149.692
+   151.015   152.341   153.669   155.000   156.333
+   157.669   159.008   160.348   161.692   163.038
+   164.386   165.737   167.090   168.446   169.805
+   171.165   172.529   173.895   175.263   176.634
+   178.008   179.383   180.762   182.143   183.526
+   184.912   186.301   187.692   189.085   190.481
+   191.880   193.281   194.684   196.090   197.499
+   198.910   200.323   201.739   203.158   204.579
+   206.003   207.429   208.857   210.288   211.722
+   213.158   214.596   216.038   217.481   218.927
+   220.376   221.827   223.281   224.737   226.195
+   227.657   229.120   230.586   232.055   233.526
+   235.000   236.476   237.955   239.436   240.920
+   242.406   243.895   245.386   246.880   248.376
+   249.875   251.376   252.880   254.386   255.895
+   257.406   258.920   260.436   261.955   263.476
+   265.000   266.526   268.055   269.586   271.120
+   272.657   274.195   275.737   277.281   278.827
+   280.376   281.927   283.481   285.038   286.596
+   288.158   289.722   291.288   292.857   294.429
+   296.003   297.579   299.158   300.739   302.323
+   303.910   305.499   307.090   308.684   310.281
+   311.880   313.481   315.085   316.692   318.301
+   319.912   321.526   323.143   324.762   326.383
+   328.008   329.634   331.263   332.895   334.529
+   336.165   337.805   339.446   341.090   342.737
+   344.386   346.038   347.692   349.348   351.008
+   352.669   354.333   356.000   357.669   359.341
+   361.015   362.692   364.371   366.053   367.737
+   369.424   371.113   372.805   374.499   376.195
+   377.895   379.596   381.301   383.008   384.717
+   386.429   388.143   389.860   391.579   393.301
+   395.025   396.752   398.481   400.213   401.947
+   403.684   405.424   407.165   408.910   410.657
+   412.406   414.158   415.912   417.669   419.429
+   421.190   422.955   424.722   426.491   428.263
+   430.038   431.815   433.594   435.376   437.160
+   438.947   440.737   442.529   444.323   446.120
+   447.920   449.722   451.526   453.333   455.143
+   456.955   458.769   460.586   462.406   464.228
+   466.053   467.880   469.709   471.541   473.376
+   475.213   477.053   478.895   480.739   482.586
+   484.436   486.288   488.143   490.000   491.860
+   493.722   495.586   497.454   499.323   501.195
+   503.070   504.947   506.827   508.709   510.594
+   512.481   514.371   516.263   518.158   520.055
+   521.955   523.857   525.762   527.669   529.579
+   531.491   533.406   535.323   537.243   539.165
+   541.090   543.018   544.947   546.880   548.815
+   550.752   552.692   554.634   556.579   558.526
+   560.476   562.429   564.383   566.341   568.301
+   570.263   572.228   574.195   576.165   578.138
+   580.113   582.090   584.070   586.053   588.038
+   590.025   592.015   594.008   596.003   598.000
+   600.000
+#================================================
+#   each file includes all fundamental velocity
+#   Green functions for a given source depth
+#   data are stored in the following order:
+#   distance
+#    {time_reduction,
+#     mechanism(expl.,strike-slip,dip-slip,clvd)
+#      {component(vertical,radial,tangential)
+#       {time_series}}}
+#   note: time reduction [s] needs (4)+4+(4)
+#         bytes, each time series (seimogram)
+#         needs (4)+number_of_samples*4+(4)
+#         bytes, where (4) bytes are for the
+#         reserved places before and after each
+#         record
+#================================================
+#   number of source_depths / files,
+#   list of source_depths / filenames
+        21
+       0.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d0'
+       2.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d2'
+       4.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d4'
+       6.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d6'
+       8.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d8'
+      10.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d10'
+      12.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d12'
+      14.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d14'
+      16.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d16'
+      18.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d18'
+      20.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d20'
+      22.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d22'
+      24.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d24'
+      26.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d26'
+      28.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d28'
+      30.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d30'
+      32.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d32'
+      34.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d34'
+      36.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d36'
+      38.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d38'
+      40.0  'E:/Studies/joint_invt_pack_v4/example-2016NZ/Green_sm_NZ/green_func/grn_d40'

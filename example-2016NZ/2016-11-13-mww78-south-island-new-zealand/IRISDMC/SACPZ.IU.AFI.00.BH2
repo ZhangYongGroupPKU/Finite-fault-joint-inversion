@@ -1,0 +1,40 @@
+* **********************************
+* NETWORK   (KNETWK): IU
+* STATION    (KSTNM): AFI
+* LOCATION   (KHOLE): 00
+* CHANNEL   (KCMPNM): BH2
+* CREATED           : 2018-10-10T07:07:59
+* START             : 2013-08-02T09:15:59
+* END               : 2018-03-26T00:00:00
+* DESCRIPTION       : Afiamalu, Samoa
+* LATITUDE          : -13.909300
+* LONGITUDE         : -171.777300
+* ELEVATION         : 705.0
+* DEPTH             : 1.0
+* DIP               : 90.0
+* AZIMUTH           : 90.0
+* SAMPLE RATE       : 20.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Streckeisen STS-1VBB w/E300
+* INSTGAIN          : 2.748830e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 4.611770e+09 (M/S)
+* A0                : 3.949740e+03
+* **********************************
+ZEROS	5
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	-1.280260e-02	+0.000000e+00	
+	-1.280260e-02	+0.000000e+00	
+POLES	6
+	-1.222750e-02	+1.234000e-02	
+	-1.222750e-02	-1.234000e-02	
+	-6.682670e-03	+0.000000e+00	
+	-1.959740e-02	+0.000000e+00	
+	-3.918000e+01	+4.912000e+01	
+	-3.918000e+01	-4.912000e+01	
+CONSTANT	1.821529e+13
+
+

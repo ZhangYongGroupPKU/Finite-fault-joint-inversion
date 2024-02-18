@@ -1,0 +1,36 @@
+* **********************************
+* NETWORK   (KNETWK): MS
+* STATION    (KSTNM): BTDF
+* LOCATION   (KHOLE):   
+* CHANNEL   (KCMPNM): BHN
+* CREATED           : 2018-10-10T07:08:11
+* START             : 1996-08-01T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Bukit Timah Dairy Farm, Singapore
+* LATITUDE          : 1.360800
+* LONGITUDE         : 103.772900
+* ELEVATION         : 64.4
+* DEPTH             : 0.0
+* DIP               : 90.0
+* AZIMUTH           : 90.0
+* SAMPLE RATE       : 20.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Streckeisen STS-1H/VBB Seismometer
+* INSTGAIN          : 2.400000e+03 (M/S)
+* COMMENT           : 
+* SENSITIVITY       : 1.007000e+09 (M/S)
+* A0                : 3.948580e+03
+* **********************************
+ZEROS	3
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+	+0.000000e+00	+0.000000e+00	
+POLES	4
+	-1.234000e-02	+1.234000e-02	
+	-1.234000e-02	-1.234000e-02	
+	-3.918000e+01	+4.912000e+01	
+	-3.918000e+01	-4.912000e+01	
+CONSTANT	3.976220e+12
+
+
